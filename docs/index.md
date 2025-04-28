@@ -4,6 +4,7 @@ title: FAQ TheSpoon
 ---
 
 <img src="/img/the_spoon.png" alt="TheSpoon Logo" width="250">
+
 # 🥄 FAQ TheSpoon
 
 Bienvenue dans l'univers velouté de TheSpoon. Toutes les réponses à vos questions sont juste là :
