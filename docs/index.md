@@ -3,7 +3,7 @@ layout: default
 title: FAQ TheSpoon
 ---
 
-<img src="/prompting-workshop/img/the_spoon.png" alt="TheSpoon Logo" width="250">
+<img src="prompting-workshop/img/the_spoon.png" alt="TheSpoon Logo" width="250">
 
 # 🥄 FAQ TheSpoon
 
