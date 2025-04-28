@@ -1,4 +1,4 @@
-from prompting_workshop.foo import foo
+from prompting_workshop.main import foo
 
 
 def test_foo():

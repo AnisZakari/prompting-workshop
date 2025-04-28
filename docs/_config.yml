@@ -1,0 +1,21 @@
+title: TheSpoon
+description: FAQ TheSpoon
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - .gitignore
+
+# Enable data files
+data_dir: _data
