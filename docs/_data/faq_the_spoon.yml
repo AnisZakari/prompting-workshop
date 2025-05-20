@@ -1,40 +1,93 @@
 faq:
   - question: Comment et où puis-je dépenser mes Splafs ?
+    id: 1
     answer: |
       Les Splafs sont notre manière de vous remercier de célébrer la cuisine à la cuillère ! Vous pouvez les utiliser pour obtenir des réductions dans les restaurants partenaires de TheSpoon (regardez bien s'ils affichent le logo "Splaf accepté ici 🍲"). Un Splaf vaut généralement 1€, et à partir de 10 Splafs, vous pouvez commencer à les utiliser pour adoucir l'addition. Mettez-les dans la marmite au bon moment !
       
   - question: Comment fonctionnent les codes Splafs ?
+    id: 2
     answer: |
-      Un ami vous a lancé un code Splaf ? Chanceux ! Ces codes sont souvent offerts lors de campagnes ou grâce à nos partenaires "écolouches" (écolos et moelleux). Ils s'activent via votre profil, section "Mes Splafs", et créditent automatiquement votre compte. Certains codes sont à usage unique, d'autres sont valables jusqu'à une date limite (vérifiez l'étiquette avant de plonger la cuillère).
+      Un ami vous a lancé un code Splaf ? Chanceux ! Ces codes sont souvent offerts lors de campagnes ou grâce à nos partenaires "écolouches" (écolos et moelleux). Ils s'activent via votre profil, section "Mes Splafs", et créditent automatiquement votre compte. Certains codes sont à usage unique, d'autres sont valables jusqu'à une date limite (vérifiez l'étiquette avant de plonger la cuillère). Attention pour les codes Splafs cadeaux, à la différence des Splafs acquis par fidélité, si vous annulez votre réservation, ils ne sont pas remboursables.
 
   - question: Comment fonctionnent les promotions ?
+    id: 3
     answer: |
       Certaines tables proposent des promos Spoonisées : entrée offerte, réduction sur le menu spécial soupe du jour, dessert surprise, etc. Ces promos sont visibles directement sur la fiche restaurant. Il suffit de réserver via TheSpoon en sélectionnant une offre. La promo sera automatiquement appliquée si vous respectez les conditions (par exemple, venir avec votre plus beau sourire et commander au moins un plat chaud 😄).
 
   - question: Comment puis-je gérer mes avis ?
+    id: 4
     answer: |
       Après chaque repas, votre avis compte autant que la cerise sur le moelleux. Vous recevrez un e-mail vous invitant à laisser un commentaire sur l'expérience cuillère en main. Vous pouvez aussi retrouver vos anciens avis et les modifier depuis votre compte > section "Mes cuillères partagées". Veillez à être sincère : on aime la vérité, surtout quand elle est nappée de bienveillance.
 
   - question: Comment puis-je annuler ma réservation ?
+    id: 5
     answer: |
-      Un imprévu ? Votre bouillon a débordé ? Aucun souci. Vous pouvez annuler votre réservation en un clic depuis votre espace personnel, rubrique "Mes Réservations". On vous recommande de prévenir le plus tôt possible, pour éviter de laisser un chef triste face à une table vide.
+      Un changement de plan de dernière minute ? Votre bouillon a débordé ? Aucun souci !
+
+      Toutes les réservations peuvent être annulées soit via votre email de confirmation, soit via votre compte TheSpoon. Il est important d'annuler vos réservations dès que vous savez que vous ne pourrez pas venir. Ainsi, le restaurant est averti et la table est libérée pour que d'autres personnes puissent la réserver.
+
+      Après avoir finalisé votre réservation, vous recevrez un e-mail de confirmation affichant les détails complets de votre réservation. L'e-mail sera envoyé à la même adresse e-mail que celle utilisée pour effectuer la réservation.
+
+      Sous l'aperçu de la réservation, vous trouverez le lien d'annulation. Après avoir cliqué, vous recevrez, ainsi que le restaurant, une notification d'annulation.
+
+      Si vous avez déjà enregistré votre compte en créant un mot de passe, vous pouvez annuler votre réservation par vous-même :
+
+      - Connectez-vous à votre compte sur le site web de TheSpoon ou dans l'application
+      - Accédez à la section "Mes Réservations" que vous trouverez dans le menu principal
+      - Sous ou à l'intérieur de la réservation concernée, vous trouverez le bouton d'annulation
+      - Sélectionnez le bouton d'annulation et confirmez votre décision
+      - Vous et le restaurant recevrez tous deux une notification de l'annulation
+
+      Enfin, si vous annulez une réservation effectuée avec vos Splafs, TheSpoon récréditera vos Splafs sur votre compte, mais ces points ne resteront valables que pendant 2 mois après la date d'annulation.
 
   - question: Si j'ai réservé avec une promotion, puis-je, moi-même ou l'un de mes invités, changer d'avis une fois arrivé au restaurant ?
+    id: 6
     answer: |
       La souplesse, c'est bien. Mais les promos Spoonisées sont parfois conditionnées à certains choix culinaires. Changer de plat ou refuser l'offre une fois sur place peut faire perdre l'avantage de la réduction. Si vous avez un doute, demandez au serveur : chez TheSpoon, le dialogue est aussi doux qu'une crème brûlée réussie.
 
   - question: Comment utiliser la Carte Cadeau TheSpoon ?
+    id: 7
     answer: |
       Offrez une cuillerée de bonheur ! Une Carte Cadeau TheSpoon permet à son destinataire de réserver un repas dans un restaurant partenaire tout en réglant tout ou partie de la note. Il suffit d'entrer le code cadeau au moment de la réservation (ou de le présenter au serveur à l'oral pour les plus théâtraux). Valable 1 an, elle fait toujours plaisir, surtout lors des froides soirées d'hiver.
+      Assurez vous que le code cadeau soit valide et que le restaurant soit partenaire de TheSpoon. Si le montant est insuffisant, vous devrez payer la différence.
 
   - question: J'aimerais en savoir plus sur la newsletter TheSpoon !
+    id: 8
     answer: |
       Notre newsletter, c'est un petit velouté de bonnes idées : des recettes réconfortantes, des promos, des restos tendance où la cuillère est reine. Inscrivez-vous via votre profil ou en bas de la page d'accueil. C'est mensuel, jamais trop salé, et garanti sans spam (juste de la bonne crème de contenu).
 
   - question: Comment rechercher un restaurant ?
+    id: 9
     answer: |
       C'est aussi simple que de tremper sa cuillère dans un potage. Rendez-vous sur TheSpoon.fr, entrez une ville ou une envie (ex : "desserts fondants" ou "ramen authentique") et laissez notre algorithme AI-Goulasch vous guider vers la meilleure table. Filtrez selon vos critères : prix, note, ambiance, et bien sûr… s'ils acceptent les Splafs.
+      Note: TheSpoon est en cours de développemnt dans certaines régions, les partenariats se font au fil de l'eau, ainsi il est possible que le nombre de restaurants dans votre région soit limité.
 
   - question: Comment acheter une Carte Cadeau TheSpoon ?
+    id: 10
     answer: |
-      Envie d'offrir une expérience gourmande, douce et inoubliable ? Allez sur notre page Cartes Cadeaux, choisissez le montant (de 15 à 200€), ajoutez un petit mot (optionnel, mais apprécié) et envoyez-la par e-mail ou imprimez-la. C'est le cadeau idéal pour ceux qui aiment partager de bons moments... à la cuillère. 
+      Envie d'offrir une expérience gourmande, douce et inoubliable ? Allez sur notre page Cartes Cadeaux, choisissez le montant (de 15 à 200€), ajoutez un petit mot (optionnel, mais apprécié) et envoyez-la par e-mail ou imprimez-la. C'est le cadeau idéal pour ceux qui aiment partager de bons moments... à la cuillère.
+  - question: Comment utiliser efficacement les filtres de recherche ?
+    id: 11
+    answer: |
+      🎯 Comment utiliser efficacement les filtres de recherche
+      Lorsque vous explorez notre plateforme à la recherche de restaurants, les filtres sont vos meilleurs alliés pour trouver des établissements qui correspondent à vos envies. Cependant, mal utilisés, ils peuvent aussi restreindre inutilement vos résultats. Voici quelques conseils pour en tirer le meilleur parti :
+
+      ✅ 1. Vérifiez vos filtres
+      Il est facile de cocher plusieurs options sans s’en rendre compte. Or, des filtres trop spécifiques (par exemple : "végétarien", "ouvert maintenant", "livraison gratuite", "moins de 10 €", etc.) peuvent exclure une grande partie des restaurants disponibles.
+
+      Astuce : Si vous obtenez peu ou pas de résultats, commencez par supprimer certains filtres et relancez votre recherche. Vous pourrez ensuite affiner progressivement selon vos priorités.
+
+      🌍 2. Tenez compte de votre zone géographique
+      La densité de restaurants varie fortement d’une région à l’autre. En milieu urbain, les résultats seront naturellement plus nombreux que dans une zone rurale ou peu peuplée.
+
+      Astuce : Essayez d’élargir le rayon de recherche autour de votre position actuelle ou explorez une ville voisine pour découvrir plus d’options.
+
+      💳 3. Attention au filtre "Restaurants acceptant les Splafs"
+      Si vous cochez uniquement les restaurants acceptant les Splafs (notre programme de paiement ou de fidélité), cela peut restreindre considérablement vos résultats, car tous les établissements ne participent pas encore à ce programme.
+
+      Astuce : Pour ne rien manquer, effectuez d’abord une recherche sans ce filtre, puis vérifiez dans les fiches des restaurants s’ils acceptent les Splafs.
+  - question: Comment dépenser mes Splafs ?
+    id: 12
+    answer: |
+      Les Splafs sont notre manière de vous remercier de célébrer la cuisine à la cuillère ! Vous pouvez les utiliser pour obtenir des réductions dans les restaurants partenaires de TheSpoon (regardez bien s'ils affichent le logo "Splaf accepté ici 🍲"). Un Splaf vaut généralement 2€, et à partir de 30 Splafs, vous pouvez commencer à les utiliser pour adoucir l'addition. Mettez-les dans la marmite au bon moment !
+      
