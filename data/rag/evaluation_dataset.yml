@@ -1,0 +1,111 @@
+evaluation_dataset_langsmith:
+  - inputs:
+      question: |
+        Mes Splafs ne sont pas utilisables dans le restaurant de mon choix ??? Pourquoi ? je comprends pas …
+    outputs:
+      answer: |
+        Il est possible que le restaurant que vous avez choisi ne participe pas au programme Splafs. Tous les établissements ne sont pas encore intégrés à ce programme de paiement ou de fidélité. Pour éviter ce genre de surprise, il est conseillé de vérifier dans les fiches des restaurants si ceux-ci acceptent les Splafs avant de finaliser votre réservation. Si vous avez déjà effectué une recherche, vous pouvez essayer de la refaire sans cocher le filtre "Restaurants acceptant les Splafs" pour voir si le restaurant de votre choix apparaît.
+      expected_documents: [
+        {"id": 2, "title": "Comment fonctionnent les codes Splafs ?"}
+        ]
+    metadata:
+      question_id: 1
+
+
+  - inputs:
+      question: |
+        Pourquoi ma carte Cadeau ne fonctionne pas ?
+    outputs:
+      answer: |
+        Il peut y avoir plusieurs raisons pour lesquelles votre Carte Cadeau TheSpoon ne fonctionne pas. Voici quelques points à vérifier :
+ 
+        Validité du Code Cadeau: Assurez-vous que le code de votre Carte Cadeau est toujours valide. Les Cartes Cadeaux TheSpoon sont généralement valables pendant 1 an à partir de la date d'achat.
+        Partenariat du Restaurant: Vérifiez que le restaurant où vous souhaitez utiliser la Carte Cadeau est bien un partenaire de TheSpoon. Les Cartes Cadeaux ne peuvent être utilisées que dans les restaurants partenaires.
+        Montant Insuffisant: Si le montant de votre Carte Cadeau est inférieur au total de la note, vous devrez payer la différence par un autre moyen de paiement.
+        Erreur de Saisie: Assurez-vous d'avoir correctement saisi le code cadeau lors de la réservation. Une erreur de saisie pourrait empêcher le code de fonctionner.
+        Restrictions Spécifiques: Certaines Cartes Cadeaux peuvent avoir des restrictions spécifiques ou des conditions d'utilisation particulières. Vérifiez les termes et conditions associés à votre Carte Cadeau.
+        Si après avoir vérifié ces points votre Carte Cadeau ne fonctionne toujours pas, veuillez créer un ticket associé à votre réservation, Pour ce faire, il suffit d'aller dans l'historique des réservations, en cliquant sur le bouton "Créer un ticket" en haut à droite.
+      expected_documents: [
+        {"id": 7, "title": "Comment utiliser la Carte Cadeau TheSpoon ?"},
+        ]
+    metadata:
+      question_id: 2
+
+  - inputs:
+      question: |
+        Mon paiement via l'application ne marche pas, le restaurateur me dit que ce n'est pas accepté
+        Or l'application dit le contraire donc je n'ai pas pu utiliser mes splafs et j'ai du payer la totalité avec ma CB, 
+        Comment me faire rembourser ?
+    outputs:
+      answer: |
+        Je suis désolé, je ne peux pas répondre à ce genre de requête, je vous propose de créer un ticket associé à votre réservation pour qu'une personne puisse étudier votre cas.
+      expected_documents: []
+    metadata:
+      question_id: 3
+
+  - inputs:
+      question: |
+        Pourquoi je n'ai que quelques restaurants dans ma région ?
+    outputs:
+      answer: |
+        Il peut y avoir plusieurs raisons pour lesquelles vous ne trouvez que quelques restaurants dans votre région sur la plateforme TheSpoon :
+
+        Filtres de recherche trop restrictifs : Si vous avez appliqué des filtres très spécifiques (comme "végétarien", "ouvert maintenant", "livraison gratuite", etc.), cela peut réduire considérablement le nombre de résultats. Essayez de supprimer certains filtres pour voir si cela augmente le nombre de restaurants disponibles.
+        Zone géographique : La densité de restaurants peut varier en fonction de votre localisation. Les zones urbaines ont généralement plus de restaurants que les zones rurales ou moins peuplées. Vous pouvez essayer d'élargir le rayon de recherche ou explorer une ville voisine pour découvrir plus d'options.
+        Disponibilité de TheSpoon : TheSpoon est en cours de développement dans certaines régions, et les partenariats avec les restaurants se font progressivement. Il est donc possible que le nombre de restaurants disponibles dans votre région soit limité pour le moment.
+        Programme Splafs : Si vous utilisez le filtre pour ne voir que les restaurants acceptant les Splafs, cela peut également restreindre vos résultats, car tous les établissements ne participent pas encore à ce programme. Essayez de faire une recherche sans ce filtre pour voir plus d'options.
+        En ajustant vos filtres et en tenant compte de ces facteurs, vous devriez pouvoir trouver plus de restaurants dans votre région.
+      expected_documents: [
+        {"id": 9, "title": "Comment rechercher un restaurant ?"},
+        {"id": 11, "title": "Comment utiliser efficacement les filtres de recherche ?"}
+        ]
+    metadata:
+      question_id: 4
+
+  - inputs:
+      question: |
+        Bonjour !
+        J'ai réservé avec une réduction de 50 % au restaurant "Chez Jo Le Rigolo" à 18h56.
+        À l'heure à laquelle j'ai réservé, il y avait 50 % mais elle n'a pas été prise en compte.
+        Le restaurateur m'explique que la réduction de 50 % était applicable pour les 10 premières réservations.
+        Étant utilisateur de TheSpoon depuis plus de 8 ans, cela ne m'était jamais arrivé.
+        Lorsque je suis arrivé au resto, j'ai annoncé ma réservation avec 50 % TheSpoon et j'ai été installé. C'est seulement à l'addition que je me suis aperçu que les 50 % n'avaient pas été appliqués.
+        En somme, vous réservez avec une réduction, elle s'annule et vous n'en avez pas connaissance, le restaurateur ne vous dit rien : vous êtes dupés.
+        Je suis écœuré. C'est quand même assez comique de se dire qu'on a une dent contre TheSpoon… 
+
+        Pouvez vous faire un geste ?
+    outputs:
+      answer: |
+        Je suis désolé, je ne peux pas répondre à ce genre de requête, je vous propose de créer un ticket associé à votre réservation pour qu'une personne puisse étudier votre cas.
+      expected_documents: []
+    metadata:
+      question_id: 5
+
+  - inputs:
+      question: |
+        Bonjour J'ai été débité 2x avec TheSpoon Pay et malgré les échanges pendant plusieurs semaines avec le service client TheSpoon,
+        vous refusez le remboursement !
+    outputs:
+      answer: |
+        Je suis désolé, je ne peux pas répondre à ce genre de question car je ne peux accéder directement à votre compte, si un ticket a déja été ouvert sur ce sujet veuillez poursuivre les discussions sur celui-ci.
+      expected_documents: []
+    metadata:
+      question_id: 6
+
+  - inputs:
+      question: |
+        Je n'ai pas trouvé comment annuler une reservation ? Je vais perdre mes Splafs associés à la reservation ?
+    outputs:
+      answer: |
+        Pour annuler une réservation, vous avez deux options principales :
+
+        1. Via votre e-mail de confirmation : Après avoir finalisé votre réservation, vous recevez un e-mail de confirmation avec tous les détails. Sous l'aperçu de la réservation, vous trouverez un lien d'annulation. En cliquant dessus, vous pourrez annuler votre réservation, et vous recevrez une notification d'annulation, tout comme le restaurant.
+        2. Via votre compte TheSpoon : Si vous avez un compte, connectez-vous sur le site web de TheSpoon ou dans l'application. Allez dans la section "Mes Réservations" du menu principal. Vous trouverez un bouton d'annulation sous ou à l'intérieur de la réservation concernée. Sélectionnez-le et confirmez votre décision. Vous et le restaurant recevrez une notification de l'annulation.
+        Concernant vos Splafs, si vous annulez une réservation effectuée avec des Splafs, TheSpoon récréditera vos Splafs sur votre compte. Cependant, ces points ne resteront valables que pendant 2 mois après la date d'annulation. Donc, vous ne perdrez pas vos Splafs, mais assurez-vous de les utiliser dans les deux mois suivant l'annulation.
+        Attention pour les codes Splafs cadeaux, à la différence des Splafs acquis par fidélité, si vous annulez votre réservation, ils ne sont pas remboursables.
+      expected_documents: [
+        {"id": 5, "title": "Comment puis-je annuler ma réservation ?"},
+        {"id": 2, "title": "Comment fonctionnent les codes Splafs ?"},
+      ]
+    metadata:
+      question_id: 7

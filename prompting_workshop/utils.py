@@ -22,4 +22,4 @@ def get_root_dir() -> Path:
 
 def load_rag_data() -> list[str]:
     data = load_yaml(get_root_dir() / "data" / "rag" / "faq_the_spoon.yml")
-    return [item["answer"] for item in data["faq"]]
+    return data["faq"]
